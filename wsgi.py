@@ -7,7 +7,11 @@ application = Flask(__name__)
 def hello():
     
     return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
- 
+ import datetime
+
+s = datetime.datetime.now().isoformat()
+print(s)
+# '2017-07-24T23:54:45.203788'
 
 if __name__ == "__main__":
     application.run()
