@@ -11,6 +11,7 @@ def hello():
 	ts = time.time()
 	print(ts)
 	# 1519322772.43	
+return (ts)
 
 if __name__ == "__main__":
     application.run()
