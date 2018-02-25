@@ -7,7 +7,7 @@ application = Flask(__name__)
 def hello():
     
     return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
-
+    return "hello world!"
 
 if __name__ == "__main__":
     application.run()
