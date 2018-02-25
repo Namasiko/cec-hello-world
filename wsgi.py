@@ -7,7 +7,7 @@ application = Flask(__name__)
 def hello():
     
     return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
-    window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onFileSystemSuccess, fail);
+    return window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onFileSystemSuccess, fail);
 
 
 if __name__ == "__main__":
