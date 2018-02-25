@@ -6,7 +6,7 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     
-    return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"+ "one" + "two"+ "three"
+    return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
     window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, onFileSystemSuccess, fail);
 
 
