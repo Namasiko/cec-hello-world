@@ -7,8 +7,9 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     
-    return "Hello World! Greetings from "+socket.gethostname()+"\n" + s = datetime.datetime.now().isoformat()
-	print(s)
+    return "Hello World! Greetings from "+socket.gethostname()+"\n" 
+	s = datetime.datetime.now().isoformat()
+	return(s)
 	# '2017-07-24T23:54:45.203788'
   
 
