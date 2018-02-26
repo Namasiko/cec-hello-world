@@ -7,7 +7,8 @@ application = Flask(__name__)
 def hello():
     
 	with open("/mnt/log_file.log") as my_file:
-    my_file.write(socket.gethostname() + "  " + str(time.time()) + "\n")
+    return my_file.write(socket.gethostname() + "  " + str(time.time()) + "\n")
+	
 
 	if __name__ == "__main__":
     application.run()
