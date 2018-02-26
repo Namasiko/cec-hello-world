@@ -6,8 +6,8 @@ application = Flask(__name__)
 @application.route("/")
 def hello():
     
-    return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
-	return "hello" from "+socket.gethostname()+"\n"
+    return "Hello World! Greetings from "+socket.gethostname()+"\n"
+  
 
 
 if __name__ == "__main__":
