@@ -3,12 +3,12 @@ import datetime
 from flask import Flask
 
 application = Flask(__name__)
+s = datetime.datetime.now().isoformat()
 
 @application.route("/")
 def hello():
     
     return "Hello World! Greetings from "+socket.gethostname()+"\n" 
-	s = datetime.datetime.now().isoformat()
 	return(s)
 	# '2017-07-24T23:54:45.203788'
   
