@@ -11,7 +11,7 @@ def hello():
         my_file.write(socket.gethostname() + "  " + str(time.time()) + "\n")
 
     with open("/mnt/log_file.log") as my_file:
-    for line in my_file:
+        for line in my_file:
         hello_string += line + "<br>"
 
     return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
