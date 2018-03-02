@@ -10,7 +10,7 @@ def hello():
     #with open("log_file.log", "a") as my_file:
         my_file.write(socket.gethostname() + "  " + str(time.time()) + "\n")
 
-    return "TEST"
+    return "Hello World! Greetings from "+socket.gethostname()+"\n"+"TEST"
 
 
 if __name__ == "__main__":
